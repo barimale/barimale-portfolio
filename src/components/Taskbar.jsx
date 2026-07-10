@@ -33,15 +33,26 @@ const Taskbar = () => {
         minimizeApp={() => minimizeApp(Menu[1].name)}
       />
     );
-  state.Mail.open &&
+  state.Nuget.open &&
     taskbarAppStack.push(
       <TaskbarAppBtn
         key={taskbarAppStack.length}
         appName={Menu[2].name}
         iconSrc={Menu[2].path}
-        isActive={state.Mail.top && !state.Mail.minimize}
+        isActive={state.Nuget.top && !state.Nuget.minimize}
         activeHandler={() => activeApp(Menu[2].name)}
         minimizeApp={() => minimizeApp(Menu[2].name)}
+      />
+    );
+    state.Github.open &&
+    taskbarAppStack.push(
+      <TaskbarAppBtn
+        key={taskbarAppStack.length}
+        appName={Menu[3].name}
+        iconSrc={Menu[3].path}
+        isActive={state.Github.top && !state.Github.minimize}
+        activeHandler={() => activeApp(Menu[3].name)}
+        minimizeApp={() => minimizeApp(Menu[3].name)}
       />
     );
   return (
