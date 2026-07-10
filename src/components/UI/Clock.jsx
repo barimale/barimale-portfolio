@@ -22,7 +22,7 @@ const Clock = () => {
         setCurrentTime(time);
         prevTime = time;
       }
-    }, 1000);
+    }, 200);
   }, []);
 
   return <p className="text-[13px] sm:text-[12px] pt-[1px]">{currentTime}</p>;
