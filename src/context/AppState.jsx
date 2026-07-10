@@ -38,6 +38,13 @@ const initialState = {
     top: false,
     fullscreen: false,
   },
+     Github: {
+    open: false,
+    minimize: false,
+    closed: true,
+    top: false,
+    fullscreen: false,
+  },
   previouslyActiveApp: "",
   taskbarAppStack: [],
 };

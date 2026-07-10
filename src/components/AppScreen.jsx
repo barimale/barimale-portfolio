@@ -6,6 +6,7 @@ import About from "./Apps/About";
 import Mail from "./Apps/Mail";
 import Nuget from "./Apps/Nuget";
 import Projects from "./Apps/Projects";
+import Github from "./Apps/Github";
 
 const AppScreen = () => {
   const { state } = useContext(AppContext);
@@ -54,6 +55,17 @@ const AppScreen = () => {
           isMinimized={state.Nuget.minimize}
         >
           <Nuget isMaximized={state.Nuget.fullscreen} />
+        </AppScreenFrame>
+      )}
+            {state.Github.open && (
+        <AppScreenFrame
+          appInfo={Menu[4]}
+          className=""
+          isActive={state.Github.top}
+          isMaximized={state.Github.fullscreen}
+          isMinimized={state.Github.minimize}
+        >
+          <Github isMaximized={state.Github.fullscreen} />
         </AppScreenFrame>
       )}
     </>

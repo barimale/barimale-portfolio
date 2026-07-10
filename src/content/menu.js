@@ -20,9 +20,16 @@ export const Menu = [
         headerIconSize: " h-[22px] w-[22px]",
         startIconSize: "w-[25px] h-[25px]"
     },
-        {
+    {
         name: "Nuget",
         path: "/assets/nuget.png",
+        deskIconSize: "w-[48px] h-[48px]",
+        headerIconSize: " h-[22px] w-[22px]",
+        startIconSize: "w-[25px] h-[25px]"
+    },
+    {
+        name: "Github",
+        path: "/assets/github.png",
         deskIconSize: "w-[48px] h-[48px]",
         headerIconSize: " h-[22px] w-[22px]",
         startIconSize: "w-[25px] h-[25px]"
