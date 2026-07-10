@@ -13,13 +13,13 @@ export const Menu = [
         headerIconSize: " h-[19px] w-[17px]",
         startIconSize: "w-[22px] h-[20px]"
     },
-    {
-        name: "Mail",
-        path: "/assets/mail.png",
-        deskIconSize: "w-[48px] h-[48px]",
-        headerIconSize: " h-[22px] w-[22px]",
-        startIconSize: "w-[25px] h-[25px]"
-    },
+    // {
+    //     name: "Mail",
+    //     path: "/assets/mail.png",
+    //     deskIconSize: "w-[48px] h-[48px]",
+    //     headerIconSize: " h-[22px] w-[22px]",
+    //     startIconSize: "w-[25px] h-[25px]"
+    // },
     {
         name: "Nuget",
         path: "/assets/nuget.png",
