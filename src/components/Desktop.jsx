@@ -14,12 +14,12 @@ const Desktop = () => {
             })}
           </div>
           <AppScreen />
-          <h1 className=" text-5xl cursor-default selection:bg-current selection:text-current">
+          {/* <h1 className=" text-5xl cursor-default selection:bg-current selection:text-current">
             Wolnica Mateusz
           </h1>
           <h2 className=" text-3xl text-white cursor-default selection:bg-current selection:text-current">
             Software Developer
-          </h2>
+          </h2> */}
         </div>
       </div>
       <Taskbar />

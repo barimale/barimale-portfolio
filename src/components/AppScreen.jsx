@@ -35,7 +35,7 @@ const AppScreen = () => {
           <Projects isMaximized={state.Projects.fullscreen} />
         </AppScreenFrame>
       )}
-      {state.Mail.open && (
+      {/* {state.Mail.open && (
         <AppScreenFrame
           appInfo={Menu[2]}
           className=""
@@ -45,10 +45,10 @@ const AppScreen = () => {
         >
           <Mail isMaximized={state.Mail.fullscreen} />
         </AppScreenFrame>
-      )}
+      )} */}
       {state.Nuget.open && (
         <AppScreenFrame
-          appInfo={Menu[3]}
+          appInfo={Menu[2]}
           className=""
           isActive={state.Nuget.top}
           isMaximized={state.Nuget.fullscreen}
@@ -59,7 +59,7 @@ const AppScreen = () => {
       )}
             {state.Github.open && (
         <AppScreenFrame
-          appInfo={Menu[4]}
+          appInfo={Menu[3]}
           className=""
           isActive={state.Github.top}
           isMaximized={state.Github.fullscreen}
