@@ -12,16 +12,8 @@ const Nuget = ({ isMaximized }) => {
       <div
         className={`flex flex-col sm:gap-10 items-center sm:items-start justify-start`}
       >
-        <p>Over 95k downloads!!</p>
-        <div className=" flex flex-col sm:items-start items-center  gap-1 mt-4 sm:mt-14">
-          <p
-            className={` ${
-              isMaximized ? " text-[40px]" : "text-[30px]"
-            }`}
-          >
-            <a href="https://www.nuget.org/profiles/barimale" target="_blank">https://www.nuget.org/profiles/barimale</a>
-          </p>
-        </div>
+        <p>The barimale NuGet profile features a collection of lightweight, practical .NET libraries designed to simplify everyday development tasks. The packages focus on configuration handling, API utilities, and developer productivity, offering clean APIs, minimal dependencies, and straightforward integration. Each library reflects an emphasis on clarity, maintainability, and solving real‑world problems with simple, effective code(over 95k downloads!!).</p>
+        <p><a style={{color: 'blue'}} href="https://www.nuget.org/profiles/barimale" target="_blank">https://www.nuget.org/profiles/barimale</a></p>
       </div>
     </div>
   );
