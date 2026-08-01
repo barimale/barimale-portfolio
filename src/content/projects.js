@@ -1,24 +1,24 @@
-import { html, css, js, react, mongoDb, tailwindCss } from "../content/badges";
+import { html, css, js, react, mongoDb, tailwindCss, dotnet, winforms } from "../content/badges";
 export const projects = [
     {
         name: "Cloud Hosting PaaS",
         description: "Netlify-like and Heroku-like platform as a service(PaaS) app dedicated for hosting of static websites and asp.net core web servers.",
         websiteLink: "https://CloudHostingAPI.b4rify.app/",
-        techStack: []
+        techStack: [dotnet]
     },
     {
         name: "Poker Dice",
         imagePath: "/assets/projectSnaps/project1a.jpg",
         description: "Using of interpreter design pattern for implementing Poker Dice game with AI assistant.",
         githubLink: "https://github.com/barimale/poker-dice",
-        techStack: []
+        techStack: [dotnet, winforms]
     },
     {
         name: "Jigsaw Solver",
         imagePath: "/assets/projectSnaps/jigsaw.png",
         description: "Tree-search-based and genetic-based algorithms having some science-article-based and custom improvements, with agnostic execution wrapper, provided together with geometric and binary verifiers.",
         githubLink: "https://github.com/barimale/jigsaw-puzzle-solver",
-        techStack: []
+        techStack: [dotnet, winforms]
     },
     {
         name: "Portfolio",
