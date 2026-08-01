@@ -1,6 +1,12 @@
 import { html, css, js, react, mongoDb, tailwindCss, dotnet, winforms } from "../content/badges";
 export const projects = [
     {
+        name: "Christmas Secret Gifter",
+        description: "Social events helper.",
+        websiteLink: "https://christmas-secret-gifter.web.app/",
+        techStack: [dotnet]
+    },
+    {
         name: "Cloud Hosting PaaS",
         description: "Netlify-like and Heroku-like platform as a service(PaaS) app dedicated for hosting of static websites and asp.net core web servers.",
         websiteLink: "https://CloudHostingAPI.b4rify.app/",
