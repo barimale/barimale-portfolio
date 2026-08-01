@@ -9,7 +9,7 @@ export const projects = [
     {
         name: "Cloud Hosting PaaS",
         description: "Netlify-like and Heroku-like platform as a service(PaaS) app dedicated for hosting of static websites and asp.net core web servers.",
-        websiteLink: "https://CloudHostingAPI.b4rify.app/",
+        websiteLink: "https://CloudHosting.b4rify.app/",
         techStack: [dotnet]
     },
     {
