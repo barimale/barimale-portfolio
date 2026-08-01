@@ -2,9 +2,10 @@ import { html, css, js, react, mongoDb, tailwindCss, dotnet, winforms } from "..
 export const projects = [
     {
         name: "Christmas Secret Gifter",
+        imagePath: "/assets/projectSnaps/christmas.png",
         description: "Social events helper.",
         websiteLink: "https://christmas-secret-gifter.web.app/",
-        techStack: [dotnet]
+        techStack: [dotnet, react, css, html]
     },
     {
         name: "Cloud Hosting PaaS",
