@@ -40,6 +40,7 @@ const Projects = ({ isMaximized }) => {
                 })}
               </div>
               <div className="mt-2 flex justify-center sm:justify-end gap-5">
+                {project.githubLink !== undefined && (
                 <a href={project.githubLink} target="_blank">
                   <FiGithub
                     size="30px"
@@ -47,6 +48,7 @@ const Projects = ({ isMaximized }) => {
                     className="hover:cursor-pointer"
                   />
                 </a>
+                )}
                 {project.websiteLink !== undefined && (
                   <a href={project.websiteLink} target="_blank">
                     <FiExternalLink

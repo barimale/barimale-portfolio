@@ -3,7 +3,6 @@ import AppScreenFrame from "./UI/AppScreenFrame";
 import { Menu } from "../content/menu";
 import AppContext from "../context/AppContext";
 import About from "./Apps/About";
-import Mail from "./Apps/Mail";
 import Nuget from "./Apps/Nuget";
 import Projects from "./Apps/Projects";
 import Github from "./Apps/Github";
@@ -35,17 +34,6 @@ const AppScreen = () => {
           <Projects isMaximized={state.Projects.fullscreen} />
         </AppScreenFrame>
       )}
-      {/* {state.Mail.open && (
-        <AppScreenFrame
-          appInfo={Menu[2]}
-          className=""
-          isActive={state.Mail.top}
-          isMaximized={state.Mail.fullscreen}
-          isMinimized={state.Mail.minimize}
-        >
-          <Mail isMaximized={state.Mail.fullscreen} />
-        </AppScreenFrame>
-      )} */}
       {state.Nuget.open && (
         <AppScreenFrame
           appInfo={Menu[2]}

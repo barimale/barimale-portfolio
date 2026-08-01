@@ -1,6 +1,12 @@
 import { html, css, js, react, mongoDb, tailwindCss } from "../content/badges";
 export const projects = [
     {
+        name: "Cloud Hosting PaaS",
+        description: "Netlify-like and Heroku-like platform as a service(PaaS) app dedicated for hosting of static websites and asp.net core web servers.",
+        websiteLink: "https://CloudHostingAPI.b4rify.app/",
+        techStack: []
+    },
+    {
         name: "Poker Dice",
         imagePath: "/assets/projectSnaps/project1a.jpg",
         description: "Using of interpreter design pattern for implementing Poker Dice game with AI assistant.",
