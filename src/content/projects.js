@@ -10,8 +10,8 @@ export const projects = [
     {
         name: "Cloud Hosting SaaS",
         imagePath: "/assets/projectSnaps/cloudSaaS.png",
-        description: "Netlify-like and Heroku-like SaaS app dedicated for hosting of static websites and asp.net core web servers.",
-        websiteLink: "https://cloud.b4rify.app/",
+        description: "Netlify-like and Heroku-like SaaS app dedicated for hosting static websites and asp.net core web servers.",
+        websiteLink: "https://cloud.b4rify.com/",
         techStack: [dotnet]
     },
     {
