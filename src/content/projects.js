@@ -4,13 +4,13 @@ export const projects = [
         name: "Christmas Secret Gifter",
         imagePath: "/assets/projectSnaps/christmas.png",
         description: "Social events helper.",
-        websiteLink: "https://christmas-secret-gifter.web.app/",
+        websiteLink: "https://christmas-secret-gifter.b4rify.com/",
         techStack: [dotnet, react, css, html]
     },
     {
-        name: "Cloud Hosting PaaS",
-        description: "Netlify-like and Heroku-like platform as a service(PaaS) app dedicated for hosting of static websites and asp.net core web servers.",
-        websiteLink: "https://CloudHosting.b4rify.app/",
+        name: "Cloud Hosting SaaS",
+        description: "Netlify-like and Heroku-like SaaS app dedicated for hosting of static websites and asp.net core web servers.",
+        websiteLink: "https://cloud.b4rify.app/",
         techStack: [dotnet]
     },
     {
