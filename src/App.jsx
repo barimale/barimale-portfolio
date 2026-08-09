@@ -25,7 +25,7 @@ function App() {
     <>
     {state.Common.hasToBeShutDown && (
       <div style={{backgroundColor: 'black', height: window.innerHeight + "px", display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
-        <p style ={{color: 'white'}}onClick={()=>{window.location.reload()}}>Click to reload the system.</p>
+        <button style ={{color: 'white'}}onClick={()=>{window.location.reload()}}>Click to reload the system.</button>
       </div>
     )}
     {!state.Common.hasToBeShutDown && visible && (
