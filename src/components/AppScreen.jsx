@@ -45,7 +45,7 @@ const AppScreen = () => {
           <Nuget isMaximized={state.Nuget.fullscreen} />
         </AppScreenFrame>
       )}
-            {state.Github.open && (
+      {state.Github.open && (
         <AppScreenFrame
           appInfo={Menu[3]}
           className=""
