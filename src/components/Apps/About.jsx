@@ -43,11 +43,11 @@ const About = ({ isMaximized }) => {
         </div>
       </div>
 
-      {/* <div className="flex flex-wrap gap-1 justify-center sm:justify-start">
+      <div className="flex flex-wrap gap-1 justify-center sm:justify-start">
         {badges.map((url, i) => {
-          return <img src={url} alt="badge" key={i} />;
+          return <img src={url} alt="badge" key={i} style={{maxHeight: '28px'}}/>;
         })}
-      </div> */}
+      </div>
       <div>
         <h4 className=" font-bold pb-3">About Me</h4>
         <p className=" before:ps-7">
