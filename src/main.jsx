@@ -1,13 +1,13 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import App from "./App.jsx";
+import ResourcedApp from "./ResourcedApp.jsx";
 import "./index.css";
 import AppState from "./context/AppState";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   // <React.StrictMode>
   <AppState>
-    <App />
+    <ResourcedApp />
   </AppState>
 //  </React.StrictMode>
 );
