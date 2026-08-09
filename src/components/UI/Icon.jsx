@@ -1,4 +1,4 @@
-import React, { useContext } from "react";
+import { useContext } from "react";
 import { motion } from "framer-motion";
 import AppContext from "../../context/AppContext";
 import { isMobileDevice } from "../../util/IsMobileDevice";
@@ -15,14 +15,7 @@ const Icon = ({ menu, setAppSelected }) => {
       drag={isMobileDevice ? false : true}
       dragMomentum={false}
       dragElastic={0.1}
-      //   onContextMenu={(event) => {
-      //     let res = event.target.getBoundingClientRect();
-      //     console.log(res.left);
-      //     setLeftVal(res.left);
-      //     setTopVal(res.top);
-      //   }}
       onDoubleClick={(e) => {
-        // new Audio("../../../public/assets/sounds/open.mp3").play();
         if (state[menu.name].open !== true) openApp(menu.name);
       }}
       onTouchStart={(e) => {
