@@ -5,9 +5,9 @@ import "./index.css";
 import AppState from "./context/AppState";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
-  // <React.StrictMode>
+<React.StrictMode>
   <AppState>
     <ResourcedApp />
   </AppState>
-//  </React.StrictMode>
+</React.StrictMode>
 );

@@ -17,7 +17,7 @@ export const projects = [
     {
         name: "Poker Dice",
         imagePath: "/assets/projectSnaps/project1a.jpg",
-        description: "Using of interpreter design pattern for implementing Poker Dice game with AI assistant.",
+        description: "Usage of interpreter design pattern for implementing Poker Dice game with AI assistant.",
         githubLink: "https://github.com/barimale/poker-dice",
         techStack: [dotnet, winforms]
     },
