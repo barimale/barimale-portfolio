@@ -7,9 +7,9 @@ export const mySql = "https://img.shields.io/badge/-my%20sql-4479A1?logo=mysql&l
 export const mSSql = "https://img.shields.io/badge/-ms%20sql-4479A1?logo=mssql&logoColor=white&style=for-the-badge";
 export const tailwindCss = "https://img.shields.io/badge/-Tailwind%20css-06B6D4?logo=tailwindcss&logoColor=white&style=for-the-badge";
 export const typescript = "https://img.shields.io/badge/-typescript-3178C6?logo=typescript&logoColor=white&style=for-the-badge";
-export const dotnet = "https://learn.microsoft.com/dotnet/media/dotnet-logo.png";
-export const winforms = "https://th.bing.com/th/id/OIP._Qjjjz671WxecfidCGyFCwAAAA?w=144&h=142&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3";
-export const wpf = "https://th.bing.com/th/id/OIP.YzJK8KGke0VxBiy893OXrgAAAA?w=212&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3";
+export const wpf = "https://img.shields.io/badge/-wpf-4479A1?logo=wpf&logoColor=white&style=for-the-badge";
+export const winforms = "https://img.shields.io/badge/-winforms-4479A1?logo=winforms&logoColor=white&style=for-the-badge";
+export const dotnet = "https://img.shields.io/badge/-.NET-4479A1?logo=.NET&logoColor=white&style=for-the-badge";
 
 export const badges = [
     html, css, js, react, mySql, tailwindCss, typescript, dotnet, winforms, wpf, mSSql

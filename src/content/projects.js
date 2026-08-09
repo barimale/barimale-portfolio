@@ -1,4 +1,4 @@
-import { html, css, js, react, mongoDb, tailwindCss, dotnet, winforms, wpf, typescript, mSSql } from "../content/badges";
+import { html, css, js, react, tailwindCss, dotnet, winforms, wpf, typescript } from "../content/badges";
 export const projects = [
     {
         name: "Christmas Secret Gifter",
@@ -12,7 +12,7 @@ export const projects = [
         imagePath: "/assets/projectSnaps/cloudSaaS.png",
         description: "Netlify-like and Heroku-like SaaS app dedicated for hosting static websites and asp.net core web servers.",
         websiteLink: "https://cloud.b4rify.com/",
-        techStack: [dotnet, react, typescript, html, css, mSSql]
+        techStack: [dotnet, react, typescript, html, css]
     },
     {
         name: "Poker Dice",
