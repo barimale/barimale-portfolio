@@ -7,9 +7,13 @@ import {
   CLOSE_APP,
   OPEN_APP,
   ACTIVE_APP,
+  CLOSE_SYSTEM
 } from "./AppAction";
 
 const initialState = {
+  Common:{
+    hasToBeShutDown: false,
+  },
   Mail: {
     open: false,
     minimize: false,
@@ -57,7 +61,11 @@ const AppState = ({ children }) => {
       type: OPEN_APP,
       payload: appName,
     });
-
+  const closeSystem = () =>{
+    dispatch({
+      type: CLOSE_SYSTEM,
+    })
+  }
   const closeApp = (appName) =>
     dispatch({
       type: CLOSE_APP,
@@ -88,6 +96,7 @@ const AppState = ({ children }) => {
         state,
         openApp,
         closeApp,
+        closeSystem,
         activeApp,
         minimizeApp,
         toggleFullScreen,

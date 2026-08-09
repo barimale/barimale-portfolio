@@ -8,7 +8,7 @@ import Projects from "./Apps/Projects";
 import Github from "./Apps/Github";
 
 const AppScreen = () => {
-  const { state } = useContext(AppContext);
+  const { state, setState  } = useContext(AppContext);
 
   return (
     <>

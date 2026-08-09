@@ -1,11 +1,20 @@
-import { MAXIMIZE_APP, MINIMIZE_APP, CLOSE_APP, OPEN_APP, ACTIVE_APP } from "./AppAction"
+import { MAXIMIZE_APP, MINIMIZE_APP, CLOSE_APP, OPEN_APP, ACTIVE_APP, CLOSE_SYSTEM } from "./AppAction"
 
 const AppReducer = (state, action) => {
     const appName = action.payload
     let prev = state.previouslyActiveApp
 
     switch (action.type) {
-
+        case CLOSE_SYSTEM:
+            return {
+                ...state,
+                [prev]: {
+                    ...state[prev],
+                },
+                Common: {
+                    hasToBeShutDown: true,
+                }
+            }
         case OPEN_APP:
             if (prev === '') {
                 return {
@@ -52,6 +61,9 @@ const AppReducer = (state, action) => {
                     ...state[prev],
                     top: topValue,
                 },
+                // Common: {
+                //     hasToBeShutDown: true,
+                // },
                 [appName]: {
                     open: false,
                     minimize: false,

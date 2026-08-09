@@ -1,12 +1,14 @@
-import { useEffect, useState } from "react";
+import { useEffect, useState, useContext } from "react";
 import Desktop from "./components/Desktop";
 import AppState from "./context/AppState";
 import {useTimedImage} from "./hooks/useTimedImage";
 import { getAverageColorFromImageUrl } from "./util/imageUtilities";
+import AppContext from "./context/AppContext";
 
 function App() {
   const { image, visible, showImage } = useTimedImage(3);
   const [bg, setBg] = useState("");
+  const { state } = useContext(AppContext);
 
   useEffect(() => {
     document.addEventListener("contextmenu", (event) => event.preventDefault());
@@ -21,7 +23,12 @@ function App() {
 
   return (
     <>
-    {visible && (
+    {state.Common.hasToBeShutDown && (
+      <div style={{backgroundColor: 'black', height: window.innerHeight + "px", display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
+        <p style ={{color: 'white'}}onClick={()=>{window.location.reload()}}>Click to reload the system.</p>
+      </div>
+    )}
+    {!state.Common.hasToBeShutDown && visible && (
       <div style={{ 
         display: 'flex', 
         justifyContent: 'center', 
@@ -31,10 +38,8 @@ function App() {
         <img src={image}/>
       </div>
     )}
-    {!visible &&(
-      <AppState>
-        <Desktop />
-      </AppState>)}
+    {!state.Common.hasToBeShutDown && !visible &&(
+        <Desktop />)}
     </>
   );
 }

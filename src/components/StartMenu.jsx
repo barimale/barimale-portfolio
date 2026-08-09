@@ -3,7 +3,7 @@ import { Menu } from "../content/menu";
 import AppContext from "../context/AppContext";
 
 const StartMenu = ({ setCloseStartMenu }) => {
-  const { state, openApp } = useContext(AppContext);
+  const { state, openApp, closeSystem } = useContext(AppContext);
   return (
     <>
       <div
@@ -57,7 +57,7 @@ const StartMenu = ({ setCloseStartMenu }) => {
               alt="ShutdownIcon"
               className=" w-[25px] h-[25px]"
             />
-            <span className="text-[14px] sm:text-[13px]">Shut Down...</span>
+            <span className="text-[14px] sm:text-[13px]" onClick={()=>{closeSystem()}}>Shut Down...</span>
           </div>
         </div>
       </div>
