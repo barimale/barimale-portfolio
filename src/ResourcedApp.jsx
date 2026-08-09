@@ -8,7 +8,14 @@ import App from "./App.jsx";
 import { usePreloadImages } from "./hooks/usePreloadImages.js";
 
 const images = [
-  "/assets/Startup.png"
+  "/assets/Startup.png",
+  "/assets/about.png",
+  "/assets/github.png",
+  "/assets/mail.png",
+  "/assets/nuget.png",
+  "/assets/projects.png",
+  "/assets/shutdown.png",
+  "/assets/speakers.png"
 ];
 
 function ResourcedApp() {
