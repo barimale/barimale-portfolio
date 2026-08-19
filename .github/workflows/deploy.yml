@@ -38,4 +38,4 @@ jobs:
           curl -k -X POST "https://CloudHostingAPI.b4rify.com/api/deploy" \
             -H "X-Version: 1988" \
             -H "X-Subdomain: mateusz-wolnica.b4rify.com" \
-            -F "file=@publish.zip" \
+            -F "uploads=@publish.zip" \
