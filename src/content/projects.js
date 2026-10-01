@@ -24,7 +24,7 @@ export const projects = [
     {
         name: "Jigsaw Solver",
         imagePath: "/assets/projectSnaps/jigsaw.png",
-        description: "Tree-search-based and genetic-based algorithms having some science-article-based and custom improvements, with agnostic execution wrapper, provided together with geometric and binary verifiers.",
+        description: "Tree-search-based, SAT-based and genetic-based algorithms having some science-article-based and custom improvements, with agnostic execution wrapper, provided together with geometric and binary verifiers.",
         githubLink: "https://github.com/barimale/jigsaw-puzzle-solver",
         techStack: [dotnet, wpf]
     },
