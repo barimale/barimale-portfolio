@@ -51,7 +51,7 @@ const About = ({ isMaximized }) => {
       <div>
         <h4 className=" font-bold pb-3">About Me</h4>
         <p className=" before:ps-7">
-          I have got 14 years of experience as a Backend Developer, including 4 years of experience as a Fullstack
+          I have got 12 years of experience as a Backend Developer, including 4 years of experience as a Fullstack
           Developer. I have worked with various technologies, including .NET, C#, EF Core, NHibernate, Typescript,
           and React. I am a quick learner and I am not afraid of new challenges. 
           <span
