@@ -33,7 +33,7 @@ export const projects = [
         imagePath: "/assets/projectSnaps/project3a.jpg",
         description: "My web portfolio whose design is inspired based on popular Windows-95 operating system's look. It is forked from: https://github.com/renish47/portfolio",
         githubLink: "https://github.com/barimale/barimale-portfolio",
-        websiteLink: "https://mateusz-wolnica.netlify.app/",
+        websiteLink: "https://mateusz-wolnica.b4rify.com/",
         techStack: [react, tailwindCss, html]
     }
 ]
